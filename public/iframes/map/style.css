@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    overflow: hidden;
+}
+
+svg {
+    height: 100%;
+}
+
+body {
+    /*background-color: #251203;*/
+    background-color: #111111;
+
+    height: 100%;
+}
+
+svg path{
+    fill: #a27f47;
+    stroke: #2c1c12;
+    stroke-width: .25;
+}
+
+svg path:hover{
+    fill: #ce8026;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.Notes{
+    fill: rgb(134, 70, 44);
+}
