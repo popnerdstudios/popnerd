@@ -13,6 +13,7 @@ html, body {
 
 svg {
     height: 100%;
+    transform: translate(-45px, 0px) scale(.9);
 }
 
 body {
